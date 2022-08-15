@@ -1,4 +1,4 @@
-# # Hello
+# # README Generator
 
   # DESCRIPTION 
-  Hi
+  An application for automatically generating a readme file

@@ -9,19 +9,49 @@ const questions = [
     //questions go here
     {
         type: 'input',
-        message: 'What is the title?',
+        message: 'What is the title of the application?',
         name: 'title',
       },
       {
         type: 'input',
-        message: 'What is the description?',
+        message: 'What is the description of the application?',
         name: 'description',
       },
       {
         type: 'list',
-        message: 'What is the license?',
+        message: 'What is the license that is being used?',
         name: 'license',
         choices: ['Apache', 'Boost']
+      },
+      {
+        type: 'input',
+        message: 'How will your application be installed?',
+        name: 'installation',
+      },
+      {
+        type: 'input',
+        message: 'How is the application used?',
+        name: 'usage',
+      },
+      {
+        type: 'input',
+        message: 'How will the application be tested?',
+        name: 'test',
+      },
+      {
+        type: 'input',
+        message: 'What contribution guidelines does the user need to know?',
+        name: 'contributions',
+      },
+      {
+        type: 'input',
+        message: 'What is your email address?',
+        name: 'email',
+      },
+      {
+        type: 'input',
+        message: 'What is your GitHub username?',
+        name: 'github',
       },
 ];
 
@@ -43,14 +73,16 @@ function init() {
     console.log(answers)
    writeToFile('./output/README.md', generateMarkdown(answers))
   })
-//   .catch((error) => {
-//     if (error.isTtyError) {
-//       // Prompt couldn't be rendered in the current environment
-//     } else {
-//       // Something else went wrong
-//     }
-//   });
 }
+
+// .catch(error => {
+//   if (error.isTtyError) {
+//     console.log ("Prompt couldn't be rendered in the current environment")
+//   } else {
+//     console.log("Something else went wrong")
+//   }
+// });
+
 
 
 // Function call to initialize app
