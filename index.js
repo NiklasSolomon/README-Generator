@@ -21,7 +21,7 @@ const questions = [
         type: 'list',
         message: 'What is the license that is being used?',
         name: 'license',
-        choices: ['Apache', 'Boost']
+        choices: ['Apache', 'Boost', 'MIT']
       },
       {
         type: 'input',
@@ -82,8 +82,6 @@ function init() {
 //     console.log("Something else went wrong")
 //   }
 // });
-
-
 
 // Function call to initialize app
 init();
