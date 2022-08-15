@@ -26,5 +26,5 @@
   ## Questions
   Any questions about the application can be directed to my email at niklassolomon@gmail.com or at my Github at https://github.com/NiklasSolomon .
   
-![Gif of application in use](./Assets/READMEgeneratorGIF.gif)
+![Gif of application in use](./Assets/READMEgeneratorGIF.gif)  
 [Link to Github Repository](https://github.com/NiklasSolomon/README-Generator)
