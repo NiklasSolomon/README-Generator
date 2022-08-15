@@ -1,4 +1,5 @@
   # README Generator
+  (Note: This readme was generated using the application)
   ## Table of Contents
   [Description](#description)  
   [License](#license)  
